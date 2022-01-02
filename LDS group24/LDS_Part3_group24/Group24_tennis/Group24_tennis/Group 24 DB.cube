@@ -1,0 +1,443 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="b6167af2-ceea-40c1-adf2-e4cbd0db6c6f" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Group 24 DB</ID>
+  <Name>Group 24 DB</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="11" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-9712" scrolltop="312" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="75" x="24130" y="11197" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="010000009001b0300100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="date" left="8806" top="6147" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="3000" height="3027" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000b80b0000d30b0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_date" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="tournament" left="8475" top="0" logicalid="2" controlid="2" masterid="0" hint1="0" hint2="0" width="3662" height="3747" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e00004e0e0000a30e0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_tournament" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="geography" left="20" top="12294" logicalid="3" controlid="3" masterid="0" hint1="0" hint2="0" width="3000" height="1947" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000b80b00009b070000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_geography" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="player" left="5420" top="11574" logicalid="4" controlid="4" masterid="0" hint1="0" hint2="0" width="3027" height="3387" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000d30b00003b0d0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_player" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="match" left="2392" top="2087" logicalid="5" controlid="5" masterid="0" hint1="0" hint2="0" width="3683" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000630e000088130000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_match" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="9907" top="3447" logicalid="6" controlid="6" masterid="0" hint1="0" hint2="0" width="799" height="3200" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="15856113" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK_tournament_date]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="1" destid="2" sourceattachpoint="4" destattachpoint="7" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="10306" y="6147" />
+              <point x="10306" y="3747" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="5775" top="1474" logicalid="7" controlid="7" masterid="0" hint1="0" hint2="0" width="3000" height="3413" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="15856113" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK_match_tournament]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="2" destid="5" sourceattachpoint="20" destattachpoint="23" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="8475" y="1873" />
+              <point x="7275" y="1873" />
+              <point x="7275" y="4587" />
+              <point x="6075" y="4587" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="2720" top="12868" logicalid="8" controlid="8" masterid="0" hint1="0" hint2="0" width="3000" height="799" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="15856113" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK_player_geography]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="3" destid="4" sourceattachpoint="13" destattachpoint="14" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="3020" y="13267" />
+              <point x="5420" y="13267" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="2833" top="6787" logicalid="9" controlid="9" masterid="0" hint1="0" hint2="0" width="3400" height="5287" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="15856113" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK_match_player]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="4" destid="5" sourceattachpoint="0" destattachpoint="3" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="5833" y="11574" />
+              <point x="5833" y="9331" />
+              <point x="3133" y="9331" />
+              <point x="3133" y="7087" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="4483" top="6787" logicalid="10" controlid="10" masterid="0" hint1="0" hint2="0" width="3400" height="5287" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="15856113" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK_match_player1]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="4" destid="5" sourceattachpoint="6" destattachpoint="9" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="7483" y="11574" />
+              <point x="7483" y="9331" />
+              <point x="4783" y="9331" />
+              <point x="4783" y="7087" />
+            </connector>
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-9712</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>312</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>20</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>75</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Dimensions>
+    <Dimension dwd:design-time-name="03b4a226-e73f-4b8f-848c-49900fc47177">
+      <ID>Tournament</ID>
+      <Name>Tournament</Name>
+      <DimensionID>Tournament</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="b5d32fce-1913-4fb4-a4a0-0739507417f9">
+          <AttributeID>Tourney Id</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="9abaf6e1-9bae-4f39-816e-4ad0e22a2c62">
+          <AttributeID>Date Id</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="2022076e-8d9a-4687-a6ab-b040cdfa72bd">
+          <AttributeID>Year</AttributeID>
+        </Attribute>
+      </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="79652134-7c43-4efe-b32b-5c0ad397d1f5">
+          <HierarchyID>Hierarchy</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
+    </Dimension>
+    <Dimension dwd:design-time-name="75e855ea-58c4-4193-8a2d-469d0ecaba09">
+      <ID>Winner</ID>
+      <Name>Winner</Name>
+      <DimensionID>Player</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="0c2b1bf1-923b-4158-b401-2a5bbe3a162e">
+          <AttributeID>Player Id</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="514c178e-af2b-4937-a417-135037bfaff8">
+          <AttributeID>Name</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="30667b5e-7c9e-4c57-bccc-b7b3dfde4ac2">
+          <AttributeID>Sex</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="8195119a-27be-4421-95b5-5e9337e8fcd7">
+          <AttributeID>Hand</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="e2c493a7-8950-4686-ba2c-96a165afebad">
+          <AttributeID>Ht</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="b81b958f-7140-4360-ab96-bb924ca14364">
+          <AttributeID>Byear Of Birth</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="782b5daa-681a-43f0-92be-db7302151338">
+          <AttributeID>Country Ioc</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="b4a78bf9-0f4e-4efa-b71f-1bca89a83f74">
+          <AttributeID>Continent</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="f72e2417-3e6c-4187-935a-aa91c8ef4e45">
+          <AttributeID>Language</AttributeID>
+        </Attribute>
+      </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="0b924c8c-ff19-4cfb-9b1e-2c26b393d59e">
+          <HierarchyID>Hierarchy</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
+    </Dimension>
+    <Dimension dwd:design-time-name="df420c2c-901f-43d5-be4a-a90585abc6b0">
+      <ID>Loser</ID>
+      <Name>Loser</Name>
+      <DimensionID>Player</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="c323adb0-4953-44ae-98a2-63b571ec7ed3">
+          <AttributeID>Player Id</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="b5e1f4c4-4b58-4229-95e0-3641e511c8fc">
+          <AttributeID>Name</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="6aabd7a3-0f61-4e74-84d1-28d0d191c34a">
+          <AttributeID>Sex</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="62cae609-25fe-4968-9aec-ee9bd27ecac6">
+          <AttributeID>Hand</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="e539a94d-7e7e-4f0a-beb6-928ffd0b28d7">
+          <AttributeID>Ht</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="e162a208-969f-49ab-bf31-9f66890a8a39">
+          <AttributeID>Byear Of Birth</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="f3805ff3-e1a5-4fe1-8cb5-11e3558d066c">
+          <AttributeID>Country Ioc</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="bb44b8d7-248b-465e-bc5e-69c2bdbc850b">
+          <AttributeID>Continent</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="a03893ea-8537-476a-bf6c-ebf5f68c6bf9">
+          <AttributeID>Language</AttributeID>
+        </Attribute>
+      </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="484a4c4c-1e79-4505-9a66-92041bb2bb22">
+          <HierarchyID>Hierarchy</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
+    </Dimension>
+  </Dimensions>
+  <MeasureGroups>
+    <MeasureGroup dwd:design-time-name="d9bb159c-8989-4344-a063-e56055bb73fc">
+      <ID>Match</ID>
+      <Name>Match</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="8b41cbed-1bc2-47bc-ae85-83bb56e63d55">
+          <ID>Winner Rank</ID>
+          <Name>Winner Rank</Name>
+          <Source dwd:design-time-name="bcedc554-6068-4a33-bad2-c8e9b5769fd0">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="037ad429-c27d-4be9-8937-ffe7a2581288">
+              <TableID>dbo_match</TableID>
+              <ColumnID>winner_rank</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="1b2a7a64-58dd-464a-8466-7ab1fb767041">
+          <ID>Winner Rank Points</ID>
+          <Name>Winner Rank Points</Name>
+          <Source dwd:design-time-name="31f8fb3c-6c9a-49e7-b5a5-3ac08d451143">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="f3702608-777d-4654-b932-d7adddada3fd">
+              <TableID>dbo_match</TableID>
+              <ColumnID>winner_rank_points</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="7d9b464c-e0d8-41cc-a59c-fe573fe1ff48">
+          <ID>Loser Rank</ID>
+          <Name>Loser Rank</Name>
+          <Source dwd:design-time-name="20e67521-e04b-4e54-803e-67b7307b39f2">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="f3a9de3e-05f2-4731-be05-8142ec98870e">
+              <TableID>dbo_match</TableID>
+              <ColumnID>loser_rank</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="06b3d6d4-83c5-483f-938b-d043cf002c03">
+          <ID>Loser Rank Points</ID>
+          <Name>Loser Rank Points</Name>
+          <Source dwd:design-time-name="94061042-3acb-44d7-9c91-d0837d2aaf0d">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="73c00de9-ab76-442f-b6f5-a02f7f0e7746">
+              <TableID>dbo_match</TableID>
+              <ColumnID>loser_rank_points</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="a7e32d68-f4bb-469f-b254-1df1e4e98125">
+          <ID>Match Count</ID>
+          <Name>Match Count</Name>
+          <AggregateFunction>Count</AggregateFunction>
+          <Source dwd:design-time-name="a7b6e1e0-e66a-4a69-b114-ce8e32cf351c">
+            <DataType>Integer</DataType>
+            <DataSize>4</DataSize>
+            <Source xsi:type="RowBinding" dwd:design-time-name="38ae711c-3219-4e07-9ae0-ab81e577a0f1">
+              <TableID>dbo_match</TableID>
+            </Source>
+          </Source>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="9865d1b5-588a-4989-a459-650810bc5b96">
+          <CubeDimensionID>Tournament</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="6346e1e2-d94b-442d-a831-040f20ce43f2">
+              <AttributeID>Tourney Id</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="170e384b-909f-4360-83a8-b318f9cb135f">
+                  <DataType>WChar</DataType>
+                  <DataSize>50</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="899175d9-7ae4-4db7-99ba-f063820e9c9a">
+                    <TableID>dbo_match</TableID>
+                    <ColumnID>tourney_id</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="ceb85566-dd5a-47e5-b147-665458b0bbc6">
+          <CubeDimensionID>Winner</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="ab26087f-67f0-43aa-a457-6f3edec13de5">
+              <AttributeID>Player Id</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="785c6861-dc43-47c5-8f93-f7b23202e7d7">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="75332fd7-3c67-4428-a963-543c207cdb3d">
+                    <TableID>dbo_match</TableID>
+                    <ColumnID>winner_id</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="94959f04-7018-42e9-8d41-f840fff07f3e">
+          <CubeDimensionID>Loser</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="b827a709-3186-4874-8726-e00d4be83c86">
+              <AttributeID>Player Id</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="8cc1029e-9079-46ae-b15c-78e2dcdc608d">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="106c5f3b-11d2-4703-abc0-2f509be8c86f">
+                    <TableID>dbo_match</TableID>
+                    <ColumnID>loser_id</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+    </MeasureGroup>
+  </MeasureGroups>
+  <Source dwd:design-time-name="71916869-5203-4679-a3f3-0e14091b5f51">
+    <DataSourceViewID>Group 24 DB</DataSourceViewID>
+  </Source>
+</Cube>

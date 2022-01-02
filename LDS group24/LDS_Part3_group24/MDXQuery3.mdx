@@ -1,0 +1,35 @@
+-- Show the percentage increase in winner rank points with respect to the previous
+-- year for each winner
+
+with member rankpoint as
+iif([Measures].[Winner Rank Points] = null, 0, [Measures].[Winner Rank Points])
+
+member pevpoint as
+([Tournament].[YearDateTourney].currentmember.prevmember, [Measures].[Winner Rank Points])
+
+member per as
+iif(pevpoint=0,0,(rankpoint - pevpoint) / pevpoint),
+format_string = "percent"
+
+select  (per, [Tournament].[YearDateTourney].[Year] ) on columns,
+(nonempty([Winner].[Name].[Name])) on rows
+from [Group 24 DB]
+
+-- For each country show the total winner rank points in percentage with respect to
+-- the total winner rank points of the corresponding continent.
+with member rankpoint as
+iif([Measures].[Winner Rank Points]=0, 0, [Measures].[Winner Rank Points])
+
+member rankpoint_continet as
+([Winner].[Geography].currentmember.parent, [Measures].[Winner Rank])
+
+member per as
+rankpoint/rankpoint_continet,
+format_string = "percent"
+
+select per on columns,
+[Winner].[Geography].[Country Ioc] on rows
+from [Group 24 DB]
+
+-- Show the losers having a total loser rank points greater than 10% of the totals loser
+-- rank points in each continent by continent and year.with member rankpoint_continent_year as([Loser].[Name].[All],[Loser].[Geography].currentmember,[Tournament].[YearDateTourney].currentmember,[Measures].[Loser Rank Points]) * 0.1 -- getting 10% of the continentselect [Measures].[Loser Rank Points] on columns,nonempty(	filter		(			([Loser].[Name].[Name], [Loser].[Geography].[Continent], [Tournament].[YearDateTourney].[Year]),			[Measures].[Loser Rank Points] > rankpoint_continent_year  					)) on rowsfrom [Group 24 DB]
