@@ -109,8 +109,8 @@ INSERT INTO [Group_24_DB].[dbo].[date]
 # Define the Components of the Connection String.
 server = 'tcp:lds.di.unipi.it' 
 database = 'Group_24_DB' 
-username = 'Group_24' 
-password = '0921WT0I' 
+username = 'username' 
+password = 'username' 
 CONNECTION_STRING = 'DRIVER={ODBC Driver 17 for SQL Server};SERVER='+server+';DATABASE='+database+';UID='+username+';PWD='+ password
 
 
